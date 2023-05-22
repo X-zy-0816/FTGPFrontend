@@ -1,0 +1,2 @@
+const testUserAddress = '0xcD872177a786F05f37ee6Cf2deE489C1C3611CeD'
+const contractAddress = '0x3f432DdE5a21865A7f146dBbe3AEb60B5e856EF9'

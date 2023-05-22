@@ -1,0 +1,175 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  position: sticky;
+  margin-top: 0%;
+  margin-left: 5%;
+  /* margin: 1%; */
+  text-align: left;
+}
+
+.box1 {
+  display: flex;
+  width: 90vw;
+  height: 10vw;
+  border: 2px solid black;
+  background: linear-gradient(135deg, #6da3ab 0%, #000000c7 100%);
+  border-radius: 20px;
+}
+
+.box1 h2 {
+  font-size: 180%;
+  font-weight: 700;
+  margin-top: -1%;
+
+}
+
+/*box2*/
+.box2 {
+  color: white;
+  margin-top: 3%;
+  width: 90vw;
+  height: 600px;
+  border: 2px solid black;
+  background: linear-gradient(135deg, #6da3ab 0%, #000000c7 100%);
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+
+
+
+.left_content {
+  width: 70%;
+  padding: 2%;
+  color: white;
+}
+
+.right_content {
+  width: 30%;
+  padding: 2%;
+  color: white;
+}
+
+.right_content img {
+  width: 90%;
+}
+
+.transactions_box h2 {
+  text-align: left;
+  margin-bottom: 1%;
+  font-weight: 700;
+  font-size: 200%;
+  margin-left: 3%;
+}
+
+.transactions_box h1 {
+  text-align: center;
+}
+
+.transactions_box p {
+  text-align: left;
+  margin-left: 3%;
+  font-size: 200%;
+  font-size: 500;
+}
+
+.transactions_box hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 2%;
+  width: 94%;
+}
+
+.transactions_box h5 {
+  color: black;
+}
+
+.subpage {
+  height: 0;
+  overflow: hidden;
+  top: 100%;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  transition: height 0.3s ease-in-out;
+  float: center;
+}
+
+.subpage_content {
+  padding: 2%;
+}
+
+.show_subpage .subpage {
+  height: 400px;
+  /* 可以根据需要更改高度 */
+}
+
+.mainbar {
+  position: relative;
+  width: 90%;
+  background-color: #808A87;
+  cursor: pointer;
+  margin-left: 4%;
+  margin-top: 2%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mainbar h3 {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-left: 2%;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.submenu {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 80%;
+  height: calc(100% - 50px);
+  background-color: darksalmon;
+  z-index: 9998;
+}
+
+.pagelink {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  background-color: #333;
+}
+
+.sub_bar {
+  width: 80%;
+  height: 400px;
+  background-color: #708069;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  float: center;
+  margin-left: 8%;
+}
+
+.sub_bar img {
+  max-width: 50%;
+}
+
+.sub_content {
+  width: 60%;
+  padding: 10px;
+}
+
+#balance_number {
+  color: rgb(29, 231, 29);
+  font-size: 200%;
+  margin-top: -100%;
+}

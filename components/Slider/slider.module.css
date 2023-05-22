@@ -1,0 +1,33 @@
+.percentage-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .percentage-slider-slider {
+    flex-grow: 1;
+  }
+  
+  .percentage-slider-input {
+    width: 80px;
+    margin-left: 16px;
+  }
+  
+  /* Make the slider take up the full width of its container */
+  .ant-slider {
+    margin-right: 16;
+    width: '80%';
+
+  }
+  
+  /* Add a blue border and a light blue shadow to the slider handle */
+  .ant-slider-handle {
+    border-color: #2fcbbe;
+    box-shadow: 0 0 0 4px #0a0807;
+  }
+  
+  /* Adjust the width of the input number field */
+  .ant-input-number {
+    width: 60px;
+  }
+  

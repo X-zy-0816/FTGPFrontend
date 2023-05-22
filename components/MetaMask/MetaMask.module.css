@@ -1,0 +1,38 @@
+.wallet_button {
+    position: absolute;
+    background-color: rgb(16, 178, 237);
+    color: white;
+    top: 10%;
+    right: 4%;
+    height: 75%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .wallet_button:hover {
+    background-color: rgb(6, 106, 149);
+  }
+  
+  .wallet_button_clicked {
+    position: absolute;
+    background-color: rgb(9, 173, 4);
+    color: white;
+    top: 10%;
+    right: 4%;
+    height: 75%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .wallet_button_clicked:hover {
+    background-color: rgb(4, 80, 3);
+  }
+  

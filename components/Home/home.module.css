@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  font-family: Baloo Bhaijaan;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 500%;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgb(14, 238, 238);
+}
+
+.subtitle{
+  font-family: Chakra Petch;
+  text-align: center;
+  font-weight: 400;
+  font-size: 500%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.intro-container {
+  position: fixed;
+  margin-top: 0%;
+  color: white;
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+
+.MpageimageP1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.MpageimageP1 p1_1{
+  max-width: 15%;
+  height: auto;
+}
+
+.MpageimageP1 p1_2{
+  max-width: 15%;
+  height: auto;
+}
+
+.MpageimageP1 p1_3{
+  max-width: 15%;
+  height: auto;
+}
+
+.MpageimageP1 hr{
+  
+  /*height: 2px;*/
+  width: 80vw;
+  color: rgba(231, 28, 28, 0);
+  margin: 8%;
+}
+
+.MpageimagePp{
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+}
+
+.MpageimagePp span{
+  font-size: 80%;
+}
+
+.MpageimageP1 img {
+  width: 240px;
+  height: 240px;
+}
+
+.content img{
+  display: inline-block;
+  max-width: 12%; 
+  margin-right: 20%;
+  margin-top: -2%;
+}
